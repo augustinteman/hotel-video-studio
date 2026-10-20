@@ -1246,13 +1246,15 @@ const CSS = `
   .sh-links li:not(.sh-keep){display:none}
 }
 @container (max-width:639px){
-  .sh-nav{padding-top:20px}
-  .sh-h1{font-size:clamp(36px,min(12.5cqw,7.2cqh),60px);line-height:.94}
-  .sh-body{font-size:15px;margin-bottom:20px}
-  .sh-eyebrow{font-size:11px}
-  .sh-ctas{gap:18px}
+  .sh-nav{padding-top:24px}
+  .sh-hint{display:none}
+  .sh-content{gap:36px;padding-bottom:52px}
+  .sh-eyebrow{font-size:11px;line-height:1.5;margin-bottom:22px}
+  .sh-h1{font-size:clamp(36px,min(12.5cqw,7.2cqh),60px);line-height:1.03}
+  .sh-aside{padding-top:0}
+  .sh-body{font-size:15px;line-height:1.65;margin-bottom:24px}
+  .sh-ctas{gap:20px}
   .sh-btn{height:48px}
-  .sh-content{padding-bottom:40px}
   .sh-credit{right:auto;left:50%;transform:translateX(-50%)}
 }
 @media (prefers-reduced-motion:reduce){
