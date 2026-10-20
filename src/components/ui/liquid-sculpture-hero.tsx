@@ -1246,16 +1246,22 @@ const CSS = `
   .sh-links li:not(.sh-keep){display:none}
 }
 @container (max-width:639px){
-  .sh-nav{padding-top:24px}
+  .sh-nav{padding:30px 24px 0;gap:18px}
+  .sh-brand{font-size:15px}
+  .sh-navcta{font-size:12px;padding:10px 12px}
   .sh-hint{display:none}
-  .sh-content{gap:36px;padding-bottom:52px}
-  .sh-eyebrow{font-size:11px;line-height:1.5;margin-bottom:22px}
-  .sh-h1{font-size:clamp(36px,min(12.5cqw,7.2cqh),60px);line-height:1.03}
-  .sh-aside{padding-top:0}
-  .sh-body{font-size:15px;line-height:1.65;margin-bottom:24px}
-  .sh-ctas{gap:20px}
+  .sh-content{gap:50px;padding:0 24px 68px}
+  .sh-eyebrow{font-size:11px;line-height:1.65;margin-bottom:30px;max-width:310px}
+  .sh-h1{font-size:clamp(36px,min(12.5cqw,7.2cqh),60px);line-height:1.09}
+  .sh-aside{padding-top:0;max-width:340px}
+  .sh-body{font-size:15px;line-height:1.72;margin-bottom:30px}
+  .sh-ctas{gap:24px}
   .sh-btn{height:48px}
+  .sh-btn svg,.sh-txt svg{display:none}
   .sh-credit{right:auto;left:50%;transform:translateX(-50%)}
+}
+@media (max-width:639px){
+  .sh-root{height:120svh;min-height:960px}
 }
 @media (prefers-reduced-motion:reduce){
   .sh-hint::before{animation:none}
