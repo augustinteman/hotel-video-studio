@@ -28,7 +28,7 @@ if (root) {
       textColor="#F4F7FA"
       accentColor="#9BB8CE"
       sculptureScale={0.94}
-      mobileSculptureScale={1.05}
+      mobileSculptureScale={0.98}
       interactive
       strength={1.1}
       radius={220}
