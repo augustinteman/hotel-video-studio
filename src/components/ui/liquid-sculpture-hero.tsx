@@ -1250,18 +1250,20 @@ const CSS = `
   .sh-brand{font-size:15px}
   .sh-navcta{font-size:12px;padding:10px 12px}
   .sh-hint{display:none}
-  .sh-content{gap:50px;padding:0 24px 68px}
-  .sh-eyebrow{font-size:11px;line-height:1.65;margin-bottom:30px;max-width:310px}
-  .sh-h1{font-size:clamp(36px,min(12.5cqw,7.2cqh),60px);line-height:1.09}
+  .sh-stage{transform:translateY(-72px)}
+  .sh-content{gap:60px;padding:0 24px 78px}
+  .sh-content>div:first-child{padding-top:58px}
+  .sh-eyebrow{font-size:11px;line-height:1.7;margin-bottom:34px;max-width:300px}
+  .sh-h1{font-size:clamp(36px,min(12.5cqw,7.2cqh),60px);line-height:1.11}
   .sh-aside{padding-top:0;max-width:340px}
-  .sh-body{font-size:15px;line-height:1.72;margin-bottom:30px}
-  .sh-ctas{gap:24px}
+  .sh-body{font-size:15px;line-height:1.76;margin-bottom:34px}
+  .sh-ctas{gap:26px}
   .sh-btn{height:48px}
   .sh-btn svg,.sh-txt svg{display:none}
   .sh-credit{right:auto;left:50%;transform:translateX(-50%)}
 }
 @media (max-width:639px){
-  .sh-root{height:120svh;min-height:960px}
+  .sh-root{height:128svh;min-height:1040px}
 }
 @media (prefers-reduced-motion:reduce){
   .sh-hint::before{animation:none}
